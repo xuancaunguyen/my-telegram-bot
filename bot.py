@@ -11,7 +11,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Hàm xử lý /hello
 async def hello(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Hello 👋, chúc bạn một ngày tốt lành!")
+    await update.message.reply_text("Hello 👋, chúc bạn một ngày tốt lành!!!!")
 
 # Hàm xử lý tin nhắn thường
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
